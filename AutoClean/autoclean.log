@@ -1,0 +1,29 @@
+06-04-2022 09:43:59.48 - INFO - Started validation of input parameters...
+06-04-2022 09:43:59.48 - INFO - Completed validation of input parameters
+06-04-2022 09:43:59.48 - INFO - Started handling of missing values...
+06-04-2022 09:43:59.48 - INFO - Found a total of 11 missing value(s)
+06-04-2022 09:43:59.48 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+06-04-2022 09:43:59.50 - DEBUG - LINREG imputation of 3 value(s) succeeded for feature "Age"
+06-04-2022 09:43:59.51 - DEBUG - KNN imputation of 1 value(s) succeeded for feature "Age"
+06-04-2022 09:43:59.51 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+06-04-2022 09:43:59.54 - DEBUG - LOGREG imputation of 4 value(s) succeeded for feature "Gender"
+06-04-2022 09:43:59.55 - DEBUG - LOGREG imputation of 3 value(s) succeeded for feature "Type"
+06-04-2022 09:43:59.56 - INFO - Completed handling of missing values in 0.078687 seconds
+06-04-2022 09:43:59.56 - INFO - Started handling of outliers... Method: "WINZ"
+06-04-2022 09:43:59.56 - DEBUG - Outlier imputation of 2 value(s) succeeded for feature "Age"
+06-04-2022 09:43:59.56 - INFO - Completed handling of outliers in 0.00327 seconds
+06-04-2022 09:43:59.56 - INFO - Started conversion of DATETIME features... Granularity: s
+06-04-2022 09:43:59.56 - INFO - Completed conversion of DATETIME features in 0.0021 seconds
+06-04-2022 09:43:59.56 - INFO - Started encoding categorical features... Method: "AUTO"
+06-04-2022 09:43:59.57 - DEBUG - Encoding to ONEHOT succeeded for feature "Gender"
+06-04-2022 09:43:59.57 - DEBUG - Encoding to ONEHOT succeeded for feature "Type"
+06-04-2022 09:43:59.57 - INFO - Completed encoding of categorical features in 0.003407 seconds
+06-04-2022 09:43:59.57 - INFO - Started feature type conversion...
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Age"
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Gender_Female"
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Gender_Male"
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Type_A"
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Type_B"
+06-04-2022 09:43:59.57 - DEBUG - Conversion to type INT succeeded for feature "Type_C"
+06-04-2022 09:43:59.57 - INFO - Completed feature type conversion for 6 feature(s) in 0.00701 seconds
+06-04-2022 09:43:59.58 - INFO - AutoClean completed successfully
